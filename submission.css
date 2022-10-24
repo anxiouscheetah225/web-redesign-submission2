@@ -1,0 +1,134 @@
+body {
+    background-color: #182860;
+    overflow-x: hidden;
+}
+
+#container {
+    width: 75vw;
+    position: relative;
+    top: -3vh;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#title {
+    width: 100%;
+    text-align: center;
+    font-family: "Zen Dots", cursive;
+    font-size: 4rem;
+    font-weight: 400;
+    color: #37E969;
+    text-decoration: solid;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 0.2rem;
+    margin-top: 7rem;
+    margin-bottom: 5rem;
+
+    /* position: relative;
+    left: 5vw; */
+}
+
+h2 {
+    font-family: "input-serif";
+    font-weight: 400;
+    font-size: 2.2rem;
+    font-style: normal;
+    color: #f334e0c5;
+    text-decoration: underline;
+    margin-top: 3rem;
+}
+
+p {
+    font-family: ff-real-headline-pro-2,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: #b6c2ec;
+    text-indent: 3rem;
+    line-height: 2.5rem;
+}
+
+img {
+    max-width: 75vw;
+    margin-bottom: 3rem;
+    border: .3rem solid black;
+}
+
+a {
+    font-family: ff-real-headline-pro-2,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: #f334e0e8;
+    text-decoration: none;
+    margin-top: 1.5rem;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style: inside;
+    text-indent: 3rem;
+}
+
+li {
+    width: 80%;
+    color: #b6c2ec;
+    position: relative;
+    left: -4%;
+
+    font-family: ff-real-headline-pro-2,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: #b6c2ec;
+    line-height: 2.2rem;
+    margin-bottom: 2rem;
+}
+
+
+
+h3 {
+    text-indent: 4rem;
+    font-family: dotgothic16,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+    color: #6CE887;
+    text-decoration: underline;
+}
+
+h4 {
+    font-family: dotgothic16,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: #6CE887;
+    margin-bottom: -.5%;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.812);
+    width: 100vw;
+    height: 10vh;
+    overflow-x: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: -1rem;
+    left: -1rem;
+}
+
+#asterisk {
+    color: #f334e0e8;
+}
+
+#note {
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+}
+

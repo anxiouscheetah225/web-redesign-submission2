@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Redesign</title>
+    <link rel="stylesheet" type="text/css" href="submission.css">
+
+    <!-- tab icon -->
+    <link rel="icon" href="http://example.com/favicon.png">
+
+    <!-- menu icon -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <!-- zen dots font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+
+    <!-- input serif font -->
+    <link rel="stylesheet" href="https://use.typekit.net/rlv7xes.css">
+
+    <!-- dot gothic16 font -->
+    <script>
+        (function(d) {
+          var config = {
+            kitId: 'ahg7sgo',
+            scriptTimeout: 3000,
+            async: true
+          },
+          h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+        })(document);
+      </script>
+
+    <!--real head pro font-->
+    <link rel="stylesheet" href="https://use.typekit.net/rlv7xes.css">
+</head>
+<body>
+    <h1 id="title">GLM Matrix Functions Redesign</h1>
+    <div id="container">
+        <div>
+            <h2>Intro:</h2>
+            <p>The website I chose for this project is the GLM matrix functions documentation page. 
+                GLM is the library students use for the introductory Computer Graphics course at Brown, so it is fairly popular. 
+                I chose this site because of this popularity as well as its many flaws. 
+                Redesigning this site could lead to me making an actual impact on the Brown community.
+            </p>
+        </div>
+        <img id="original" src="original.jpeg"/>
+        <a href="https://glm.g-truc.net/0.9.4/api/a00133.html">https://glm.g-truc.net/0.9.4/api/a00133.html</a>
+        <h2>Analyzing Problems:</h2>
+        <ul>
+            <li>The most glaring issue with this site is its small font size, which limits readability and accessibility and makes it harder for users to find the specific information they’re looking for.</li>
+            <li>Many of the functions on this page are also documented redundantly, which leads to the same kind of information taking up unnecessary space. For example, there are three different versions of the determinant function listed, one for a 2x2 matrix, a 3x3 matrix, and a 4x4 matrix respectively.</li>
+            <li>One more information-related issue is the spatial separation between the declaration of a function and its actual description. It would be simpler for users if the description was in the same area as its declaration.</li>
+            <li>The “functions” hyperlink on the far top right of the page, which takes you to the function description section, is redundant.</li>
+            <li>The “GLM Core” hyperlink is awkwardly positioned, and is important enough to simply include as part of the navigation options at the top of the page</li>
+            <li>The background image is visually complex, which can distract users from the actual content. Information about the functions should be the main priority and this should be reflected in aesthetic design choices.</li>
+            <li>The choice of orange and white not only makes it difficult to distinguish function descriptions from the background of the container div, but also gives off a feeling of heat, which I personally found to increase my stress while working on computer graphics projects (which is further exacerbated by the smoky background image). If I’m looking for complex information that I do not fully understand, I want to encounter that information in an environment that calms me down rather than heating me up.</li>
+            <li><strong>Aria: </strong> The WebAIM WAVE detected thirty instances of low contrast, which I completely agree with. Besides that, it also gave thirty-two alerts related to layout elements, but did not specify them. Lastly, it detected that the site completely lacks ARIA landmarks</li>
+        </ul>
+        <h2>Lo-Fi Prototypes:</h2>
+        <h3>Cellular</h3>
+        <img id="lofi-phone" src="New Wireframe 1.png"/>
+        <h3>Tablet</h3>
+        <img id="lofi-tablet" src="New Wireframe 2.png"/>
+        <h3>Desktop</h3>
+        <img id="lofi-desktop" src="New Wireframe 3.png"/>
+
+        <h2>Hi-Fi Prototypes:</h2>
+        <h3>Style Guide</h3>
+        <img id="style-guide" src="Style Guide.png"/>
+        <h3>Cellular</h3>
+        <img id="hifi-phone" src="cellular.png"/>
+        <h3>Tablet</h3>
+        <img id="hifi-tablet" src="tablet.png"/>
+        <h3>Desktop</h3>
+        <img id="hifi-desktop" src="desktop.png"/>
+
+        <a href="https://anxiouscheetah225.github.io/web_redesign/">Link to Redesign*</a>
+    </div>
+    <footer>
+        <p id="note"><span id="asterisk">*</span>When you resize the window for the site in your browser, you should refresh the page. Otherwise, there will be some issues with the menu functionality</p>
+    </footer>
+</body>
+</html>
